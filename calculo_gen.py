@@ -66,9 +66,9 @@ for regla in range(256):
     resultados.append(info)
 
     if info["repite"]:
-        print(f"✔ Regla {regla}: patrón repetido desde gen {info['desde']} hasta {info['hasta']}")
+        print(f" Regla {regla}: patrón repetido desde gen {info['desde']} hasta {info['hasta']}")
     else:
-        print(f"✖ Regla {regla}: no repite patrón hasta {info['hasta']} generaciones")
+        print(f" Regla {regla}: no repite patrón hasta {info['hasta']} generaciones")
 
 print("\n\n========== RESUMEN GENERAL ==========")
 for r in resultados:
